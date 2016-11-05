@@ -1,9 +1,9 @@
 (function () {
-    "use strict";
+    'use strict';
 
-    function loginCtrl($scope) {
+    function loginCtrl($scope, Auth) {
         $scope.login = function () {
-
+            Auth.login();
         };
     }
 
@@ -14,5 +14,5 @@
 
     angular
         .module('app')
-        .component('auth', componentConfig);
+        .component('login', componentConfig);
 })();
