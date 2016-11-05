@@ -1,0 +1,31 @@
+{
+  "name": "gmail-spamalytics",
+  "description": "An Angular + Firebase Gmail Spam Reporter",
+  "main": "public/index.html",
+  "authors": [
+    "Angel S. Moreno <angelxmoreno@gmail.com> (https://angelxmoreno.github.io/)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "Firebase",
+    "AngularFire",
+    "Gmail"
+  ],
+  "homepage": "https://github.com/angelxmoreno/gmail-spamalytics",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "^1.5.8",
+    "firebase": "^3.5.3",
+    "angularfire": "^2.1.0",
+    "bootcards": "^1.1.2",
+    "angular-ui-router": "^0.3.2"
+  }
+}
